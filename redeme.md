@@ -5,7 +5,7 @@ Using np.linalg.solve(): A direct and efficient method for solving linear equati
 
 Using matrix inverse: An alternative method for solving the system, if the matrix is invertible.
 
-Repository Name
+
 Repository Name: linear-system-solver ⭐
 
 Table of Contents
@@ -57,8 +57,7 @@ Open a terminal or command prompt.
 Clone the repository to your local machine using the following command:
 
 
-git clone https://github.com/<your-username>/linear-system-solver.git
-
+git clone https://github.com/M-Aitisam/linear-system-solver.git
 Navigate to the project directory:
 
 cd linear-system-solver
@@ -93,20 +92,12 @@ If the system has no solution or infinite solutions, the script will catch the e
 
 If the matrix is not invertible (i.e., singular), the script will also handle that case gracefully.
 
-How to Contribute 🤝
-If you'd like to contribute to this project, follow these steps:
-
-Fork the repository by clicking the Fork button at the top of the page.
-
-Clone your forked repository to your local machine:
-
-git clone https://github.com/<your-username>/linear-system-solver.git
-
 
 License 📄
 This project is open-source and available under the MIT License. See the LICENSE file for more details.
 
 Starring the Repository ⭐
+
 If you found this project helpful, please star the repository to show your support! 🌟
 
 Go to the repository on GitHub.
