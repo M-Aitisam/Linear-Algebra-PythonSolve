@@ -1,79 +1,91 @@
-Linear System Solver ✨
-This repository contains a Python script that solves a system of linear equations using NumPy. The script offers two methods for solving the system:
+# ✨ Linear System Solver
 
-Using np.linalg.solve(): A direct and efficient method for solving linear equations.
+This repository contains a Python script that solves a system of linear equations using **NumPy**. The script provides **two methods** for solving the system:
 
-Using matrix inverse: An alternative method for solving the system, if the matrix is invertible.
+- ✅ **Using `np.linalg.solve()`**: A direct and efficient method for solving linear equations.
+- 🧠 **Using matrix inverse**: An alternative method (if the matrix is invertible).
 
+---
 
-Repository Name: linear-system-solver ⭐
+## ⭐ Repository Name: `linear-system-solver`
 
-Table of Contents
-Description 📜
+---
 
-Cloning the Repository 🔧
+## 📑 Table of Contents
 
-Installing Dependencies 📦
+1. [📜 Description](#-description)
+2. [🔧 Cloning the Repository](#-cloning-the-repository)
+3. [📦 Installing Dependencies](#-installing-dependencies)
+4. [▶️ Running the Code](#️-running-the-code)
+5. [📊 Expected Output](#-expected-output)
+6. [⚠️ Error Handling](#-error-handling)
+7. [🤝 How to Contribute](#-how-to-contribute)
+8. [📄 License](#-license)
+9. [🌟 Starring the Repository](#-starring-the-repository)
 
-Running the Code ▶️
+---
 
-Expected Output 📊
+## 📜 Description
 
-Error Handling ⚠️
-
-How to Contribute 🤝
-
-License 📄
-
-Starring the Repository ⭐
-
-Description 📜
-This project solves a system of linear equations of the form:
+This project solves a system of linear equations in the form:
 
 A * X = B
 
-Where A is the coefficient matrix, X is the vector of unknowns (the values you're trying to solve for), and B is the constant vector.
 
-Methods Used:
-np.linalg.solve(): This method directly solves the system and is fast and efficient.
+Where:
+- `A` is the coefficient matrix
+- `X` is the vector of unknowns
+- `B` is the constant vector
 
-Matrix Inverse: This method computes the inverse of matrix A and multiplies it with B to find X (the solution vector).
+### 🧮 Methods Used
 
-Example
-For the system of equations:
+- **`np.linalg.solve()`**: Efficient built-in solver from NumPy.
+- **Matrix Inverse**: Calculates the inverse of `A` and multiplies with `B`.
+
+---
+
+### 📘 Example
+
+Solving the system of equations:
 
 2x + 3y = 8
 3x + 4y = 11
 
-The solution is:
 
-x = 1 y = 2
+The output will be:
 
-Cloning the Repository 🔧
-To get started with this repository, follow these steps:
-
-Open a terminal or command prompt.
-
-Clone the repository to your local machine using the following command:
+x = 1
+y = 2
 
 
+---
+
+## 🔧 Cloning the Repository
+
+Open a terminal or command prompt and run:
+
+```bash
 git clone https://github.com/M-Aitisam/linear-system-solver.git
-Navigate to the project directory:
-
 cd linear-system-solver
 
-Installing Dependencies 📦
-This project requires NumPy for matrix operations. To install NumPy, run the following command:
+
+📦 Installing Dependencies
+This project requires NumPy & streamlit. To install it, run:
 
 pip install numpy
+pip install streamlit
 
-Running the Code ▶️
-Once the dependencies are installed, you can run the Python script to solve the linear system by executing the following command:
+▶️ Running the Code
+To run the Python script, use the following command:
 
 python linearalgebra.py
 
-Expected Output 📊
-When running the code with the provided example, the expected output will be:
+If you are using Streamlit, run this instead:
+
+streamlit run linearalgebra.py
+
+📊 Expected Output
+When running with the provided example, you will see:
 
 Solving using np.linalg.solve()...
 
@@ -83,25 +95,26 @@ y = 2.0
 
 Solving using matrix inverse...
 Solution using matrix inverse:
-
 x = 1.0
 y = 2.0
 
-Error Handling ⚠️
-If the system has no solution or infinite solutions, the script will catch the error and notify the user.
+⚠️ Error Handling
+If the system has no solution or infinite solutions, the script will notify you.
 
-If the matrix is not invertible (i.e., singular), the script will also handle that case gracefully.
+If the matrix A is not invertible, it will handle that error gracefully.
 
+🤝 How to Contribute
+Fork the repository 🔱
+Clone your fork locally:
 
-License 📄
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Starring the Repository ⭐
+🌟 Starring the Repository
+If you found this project helpful, please give it a ⭐ to show your support!
 
-If you found this project helpful, please star the repository to show your support! 🌟
+Go to the GitHub repository
 
-Go to the repository on GitHub.
+Click the Star button at the top right of the page
 
-Click the Star button at the top right of the page.
-
-Stars are a great way to show appreciation and help others discover this project! 🚀
+Your support helps others discover this project! 🙌
